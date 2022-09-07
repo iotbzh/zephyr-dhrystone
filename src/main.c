@@ -48,9 +48,8 @@ extern Enumeration  Func1(CapitalLetter CharPar1, CapitalLetter CharPar2);
 extern booleans      Func2(String30 StrParI1, String30 StrParI2);
 booleans Func3(Enumeration EnumParIn);
 
-#include <zephyr.h>
-#include <kernel.h>
-#include <sys/printk.h>
+#include <zephyr/kernel.h>
+#include <zephyr/sys/printk.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
